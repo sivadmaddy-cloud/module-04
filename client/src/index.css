@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5e5;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width:650px;
+  padding: 60px;
+  background: #f2f2f2;
+  border-radius: 15px;
+  gap:12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers everything horizontally */
+}
+/*filter*/
+
+.filter {
+  display: flex;
+  justify-content: center;
+  gap: 20px;   /* space between buttons */
+}
+
+
+/* Card */
+.card {
+  width: 100%;
+  background: white;
+  padding: 30px;
+  border-radius: 22px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+
+/*Login Button*/
+
+.log{
+background-color:blue;
+color:white;
+
+}
+
+/*Register*/
+
+.regi{
+  background-color:blue;
+color:white;
+}
+
+/* Inputs */
+input {
+  width: 90%;
+  padding: 12px;
+  margin-top: 16px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+
+}
+
+/* Button */
+button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 18px;
+  border: 1px solid green;
+  background-color:grey;
+  color:black;
+}
+
+/* Paragraph */
+p {
+  margin-top: 25px;
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
