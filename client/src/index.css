@@ -4,7 +4,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
+  background-color: #4169E1;
+
 }
 
 /* Main Container */
@@ -81,8 +83,8 @@ button {
   cursor: pointer;
   border-radius: 18px;
   border: 1px solid green;
-  background-color:grey;
-  color:black;
+  background-color:#0000FF;  
+  color:white;
 }
 
 /* Paragraph */
