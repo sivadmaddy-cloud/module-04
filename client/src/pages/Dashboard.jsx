@@ -38,7 +38,7 @@ function Dashboard({ setUser }) {
   return (
    
     <div className="container">
-      <button class="logged" onClick={logout}>Logout</button>
+      <button className="logged" onClick={logout}>Logout</button>
 
       <TaskForm fetchTasks={fetchTasks} />
 

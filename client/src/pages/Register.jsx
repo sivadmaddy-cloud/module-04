@@ -41,7 +41,7 @@ function Register() {
           onChange={(e) => setForm({ ...form, password: e.target.value })}
           required
         />
-        <button type="submit" class="regi">Register</button>
+        <button type="submit" className="regi">Register</button>
        <p>
         Already Have an Account <Link to="/login">Login here</Link>
         </p>

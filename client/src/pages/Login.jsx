@@ -38,7 +38,7 @@ function Login({ setUser }) {
           onChange={(e) => setForm({ ...form, password: e.target.value })}
           required
         />
-        <button type="submit" class="log">Login</button>
+        <button type="submit" className="log">Login</button>
         <p>
           Don't Have an Account? <Link to="/register">Register</Link>
         </p>
